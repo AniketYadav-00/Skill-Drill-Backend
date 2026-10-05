@@ -11,7 +11,7 @@ import paymentRouter from "./routes/payment.route.js"
 dotenv.config()
 const app = express()
 app.use(cors({
-    origin : "http://localhost:5173",
+    origin : "https://skill-drill-frontend.onrender.com",
     credentials : true
 }))
 
